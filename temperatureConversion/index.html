@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website cuz Bored</title>
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div id="main">
+        <h1 id="h1">Temperature Conversion:</h1>
+        <input type="number" id="input" placeholder="67" value="0">
+
+        <input type="radio" name="conversion" id="ctf" class="radioElement">
+        <label id="ctfLabel" for="ctf" class="radioLabel">Celsius to Fahrenheit</label><br>
+        <input type="radio" name="conversion" id="ftc" class="radioElement">
+        <label id="ftcLabel" for="ftc" class="radioLabel">Fahrenheit to Celsius</label>
+
+        <button type="submit" id="submit" onclick="convert()">Submit</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>
